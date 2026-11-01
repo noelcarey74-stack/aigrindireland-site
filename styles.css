@@ -92,3 +92,10 @@ body{overflow-x:hidden}
   .brand span{font-size:.9rem}
   .hero-showcase{margin-top:12px}
 }
+/* AGI video tour — accessible, responsive, no autoplay or third-party embeds */
+.agi-video-section{padding-top:44px;padding-bottom:66px}
+.agi-video-shell{max-width:1050px;margin:auto;padding:10px;border:1px solid #c7dcf8;border-radius:26px;background:#061f47;box-shadow:0 25px 55px rgba(7,43,96,.18);overflow:hidden}
+.agi-video-shell video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#092b64;border-radius:17px}
+.agi-video-shell video:focus-visible{outline:3px solid #ffca2d;outline-offset:3px}
+.agi-video-note{max-width:860px;margin:16px auto 0;color:#4a5d78;text-align:center;font-size:.87rem;line-height:1.5}
+@media(max-width:620px){.agi-video-section{padding:42px 0}.agi-video-shell{padding:5px;border-radius:15px}.agi-video-shell video{border-radius:10px}}
