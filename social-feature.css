@@ -70,3 +70,9 @@
 
 /* Keep play control visible without covering the teaching captions on the cover. */
 .social-feature__poster-play{bottom:auto;top:55%;left:50%;transform:translate(-50%,-50%)}
+
+/* Verified, brand-specific links to published public social posts. */
+.social-feature__published-label{margin-top:11px!important;padding-top:12px;border-top:1px solid var(--sf-border)}
+.social-watch-page__published{margin-top:28px}
+.social-watch-page__published p{color:#d4e5f0}
+.social-watch-page__published .social-watch-page__cta{margin-top:8px;padding-top:16px}
