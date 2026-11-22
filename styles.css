@@ -99,3 +99,35 @@ body{overflow-x:hidden}
 .agi-video-shell video:focus-visible{outline:3px solid #ffca2d;outline-offset:3px}
 .agi-video-note{max-width:860px;margin:16px auto 0;color:#4a5d78;text-align:center;font-size:.87rem;line-height:1.5}
 @media(max-width:620px){.agi-video-section{padding:42px 0}.agi-video-shell{padding:5px;border-radius:15px}.agi-video-shell video{border-radius:10px}}
+
+/* November 2026 release highlights and topic guides */
+.agi-update-section{background:linear-gradient(160deg,#f6faff,#eaf3ff);padding:58px 0 62px;border-bottom:1px solid #d9e5f8}
+.agi-update-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:center}
+.agi-update-layout h2{margin:0 0 16px;color:#082d63;line-height:1.08;letter-spacing:-.04em;font-size:clamp(2rem,3.3vw,3rem)}
+.agi-update-layout>div>p:not(.kicker){max-width:640px;color:#435b79;margin:0 0 20px}
+.agi-update-steps{display:grid;gap:10px}
+.agi-update-steps>div{display:flex;align-items:center;gap:16px;padding:17px 20px;background:#fff;border:1px solid #d6e7fc;border-radius:17px;box-shadow:0 8px 26px #072b6010}
+.agi-update-steps>div>span{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border-radius:13px;background:#e9f3ff;color:#0c55ad;font-weight:900}
+.agi-update-steps p{margin:0;color:#536984;font-size:.93rem;line-height:1.4}
+.agi-update-steps strong{color:#082d63;font-size:1.02rem}
+.agi-story{max-width:900px;margin:0 auto;padding:26px 0}
+.agi-story h2{color:#082d63;line-height:1.12;font-size:clamp(1.7rem,3vw,2.5rem);margin:0 0 15px}
+.agi-story p{color:#4c607b}
+.agi-story .card{margin-top:16px}
+.agi-two-col{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:34px}
+.agi-update-shots{display:flex;gap:13px;justify-content:center;align-items:start}
+.agi-update-shots img{display:block;max-width:48%;width:210px;height:auto;border:5px solid #fff;border-radius:21px;box-shadow:0 17px 40px rgba(5,39,86,.17)}
+.agi-update-shots img:nth-child(2){transform:translateY(25px)}
+.agi-keypoints{list-style:none;padding:0;margin:16px 0 20px}
+.agi-keypoints li{padding:8px 0 8px 29px;position:relative;color:#455a76}
+.agi-keypoints li:before{position:absolute;left:2px;top:8px;content:'✓';font-weight:900;color:#087e63}
+.agi-lesson{background:#fff;border:1px solid #dce7f4;border-radius:24px;padding:28px;margin:20px 0}
+.agi-lesson h2,.agi-lesson h3{margin-top:0;color:#082d63}
+.agi-lesson p{color:#4c607b}
+.agi-math{display:block;text-align:center;padding:19px 12px;border-radius:17px;background:#eaf4ff;color:#082d63;font-size:clamp(1.1rem,2vw,1.65rem);font-weight:850;overflow-wrap:anywhere}
+.agi-video-panel{max-width:360px;margin:20px auto}
+.agi-video-panel video{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:contain;border-radius:22px;background:#051f3f;box-shadow:0 23px 60px #061f4780}
+.agi-video-panel video:focus-visible{outline:3px solid #ffd42a;outline-offset:4px}
+.agi-learning-note{font-size:.9rem;color:#566b86;background:#f1f7ff;border-left:4px solid #0b7cff;padding:14px 18px;border-radius:0 12px 12px 0}
+@media(max-width:870px){.agi-update-layout,.agi-two-col{grid-template-columns:1fr}.agi-update-section{padding:46px 0}.agi-update-steps{max-width:720px}}
+@media(max-width:620px){.agi-story{padding:12px 0}.agi-lesson{padding:20px 17px}.agi-update-steps>div{padding:14px 16px}.agi-update-shots img{width:175px}}
